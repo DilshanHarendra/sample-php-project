@@ -1,0 +1,21 @@
+{
+    "name": "dilshanharendraperera/pos_routes",
+    "description": "This is a POS router test project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "DilshanHarendra",
+            "email": "harendracripto@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.10"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
